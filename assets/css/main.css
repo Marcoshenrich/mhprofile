@@ -1280,6 +1280,13 @@ a.image {
     transform: scale(1.075); }
 
 
+  #github-history {
+    width: 100px
+  }
+
+  #github-history img {
+    width: 500px
+  }
 
 #artwork {
   height: 500px;

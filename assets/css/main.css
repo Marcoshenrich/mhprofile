@@ -1281,12 +1281,9 @@ a.image {
 
 
   #github-history {
-    width: 100px
+    width: 600px
   }
 
-  #github-history img {
-    width: 500px
-  }
 
 #artwork {
   height: 500px;

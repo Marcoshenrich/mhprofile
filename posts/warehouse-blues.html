@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Warehouse Blues - Marcos Henrich</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+		<link rel="stylesheet" href="../assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Main -->
+			<div id="main">
+				<div class="inner">
+
+					<!-- Header -->
+					<header id="header">
+						<a href="../index.html" class="logo"><strong>Marcos Henrich</strong></a>
+						<ul class="icons">
+							<li><a target="_blank" href="https://github.com/Marcoshenrich/" class="icon brands fa-github"><span class="label"></span></a></li>
+							<li><a target="_blank" href="https://www.linkedin.com/in/marcos-henrich-794226108/" class="icon brands fa-linkedin"><span class="label"></span></a></li>
+						</ul>
+					</header>
+
+					<!-- Content -->
+					<section>
+						<div class="post-nav">
+							<a class="post-nav-prev" href="cast-of-characters.html">
+								<span class="post-nav-arrow">&larr; Previous</span>
+								<span class="post-nav-title">A Cast of Characters</span>
+							</a>
+							<a class="post-nav-next" href="pm-to-engineering.html">
+								<span class="post-nav-arrow">Next &rarr;</span>
+								<span class="post-nav-title">Why I Left Project Management for Software Engineering</span>
+							</a>
+						</div>
+
+						<article class="blog-post">
+							<div class="post-header">
+								<h2>Warehouse Blues</h2>
+								<p class="post-meta">January 10, 2026</p>
+							</div>
+							<div class="post-body">
+								<p>Joel, the Director, was excited to bring me on because beside my business and ops experience, I had actually worked as a warehouse and shipping guy for my first 3 years out of college. I was keenly aware that I had done so in the era of printed out packing slips, and that standards and practices had surely changed since then.</p>
+
+								<p>Turns out, not so much. Cardboard and tape technology has not been updated in about 40 years. Uline is still king. Tape dispensers are still finicky. Tossing a package into a shipping bin is still extremely satisfying. Box cutters are exactly the same as 20 years ago.</p>
+
+								<p>The Tech however, has changed a lot. Ubiquitous access to high power devices has lowered the floor for how technology can support small business. It is, for example, totally reasonable to hire a minimum wage worker and expect them to have their own functioning smartphone with a decent camera.</p>
+
+								<p>Jacob, the Operations Lead, had shipped an MVP for a Warehouse Management System (WMS) that the team used to fulfil orders. It used an OCR webcam capture function to query Google Vision for substrings of text when scanning labeled pick bins, matching successful scans. It also allowed the user to re-index pick bins to maintain an accurate shelf map for fulfilment. The app was workable but had several highly detrimental bugs that could pop up at any time, potentially disrupting large orders.</p>
+
+								<p>As we got through the busy season, the first thing that needed to be done at The Store was to optimize their shipping area and fulfillment workflows. My initial mandate was clear: operationalize new workflows so that the team had better to runway to scale as they aimed to double the size of their business this year. There was a lot of low hanging fruit that is not worth getting into here.</p>
+
+								<p>After the initial ops wins and some heavy re-indexing of the warehouse, I started diving into the WMS app that Jacob had spun up to extend features on it.</p>
+
+								<p>Here are some of the key features I launched as I slowly ramped up my use of agentic tools.</p>
+
+								<ul class="feature-list">
+									<li>Refactored the frontend for legibility and added colorblind mode for our warehouse lead</li>
+									<li>Automated how orders are served and claimed by pickers</li>
+									<li>Transferred the app from a Google Sheets "DB" to Supabase</li>
+									<li>Introduced cycle counts and inventory alerts</li>
+									<li>Automated label printing to the local Arkscan printer for box and shelf labeling</li>
+									<li>Introduced Search Warehouse functionality that would show you every shelf location for a given SKU</li>
+									<li>Introduced QR Codes instead of Google Vision for indexing and scanning</li>
+									<li>Built Inventory and Sales ETL's to maintain non-Shopify records for easier use</li>
+								</ul>
+
+								<p>I had been hired as an operations consultant, not a developer. But every day I came in and sat down and just kind of kept coding waiting for someone to tell me to stop and no one did. This was the start of my acceptance of the new AI development paradigm, and it was mostly due to Robert, the CEO, repeatedly coming up to politely chastise me for not vibecoding whenever he saw me typing out functions or looking directly at my code.</p>
+							</div>
+						</article>
+
+						<div class="post-nav">
+							<a class="post-nav-prev" href="cast-of-characters.html">
+								<span class="post-nav-arrow">&larr; Previous</span>
+								<span class="post-nav-title">A Cast of Characters</span>
+							</a>
+							<a class="post-nav-next" href="pm-to-engineering.html">
+								<span class="post-nav-arrow">Next &rarr;</span>
+								<span class="post-nav-title">Why I Left Project Management for Software Engineering</span>
+							</a>
+						</div>
+					</section>
+
+				</div>
+			</div>
+
+			<!-- Sidebar -->
+			<div id="sidebar">
+				<div class="inner">
+					<section id="search" class="alt"></section>
+					<nav id="menu">
+						<header class="major"><h2>Menu</h2></header>
+						<ul>
+							<li><a href="../index.html">Homepage</a></li>
+							<li><a href="https://github.com/Marcoshenrich/" target="_blank">Github</a></li>
+							<li><a href="../posts.html">Posts</a></li>
+							<li><a href="../reviews.html">Peer Reviews</a></li>
+							<li><a href="../art.html">Art</a></li>
+							<li><a href="../photography.html">Photography</a></li>
+							<li><a href="../streetcat-snap.html">Streetcat Snap</a></li>
+							<li><a href="../pmp.html">Getting a PMP</a></li>
+						</ul>
+					</nav>
+					<section>
+						<header class="major"><h2>Get in Touch</h2></header>
+						<p>Reach out to connect. Happy to answer any questions or just chat about our journeys. <br/>I love meeting new people and learning how you became who you are today.</p>
+						<ul class="contact">
+							<a target="_blank" href="https://www.linkedin.com/in/marcos-henrich-794226108/"><li class="icon brands fa-linkedin">LinkedIn</li></a>
+							<li class="icon solid fa-envelope">jmarcoshenrich@gmail.com</li>
+							<li class="icon solid fa-phone">(413) 717-5354</li>
+							<li class="icon solid fa-home">Alameda, CA
+						</ul>
+					</section>
+					<footer id="footer">
+						<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="../assets/js/jquery.min.js"></script>
+		<script src="../assets/js/browser.min.js"></script>
+		<script src="../assets/js/breakpoints.min.js"></script>
+		<script src="../assets/js/util.js"></script>
+		<script src="../assets/js/main.js"></script>
+		<script src="../assets/js/active-menu.js"></script>
+
+	</body>
+</html>
